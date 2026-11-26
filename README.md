@@ -22,9 +22,13 @@ Project Praktikum Mata Kuliah Basis Data — Studi Kasus 1: Implementasi CRUD Si
 
 ## Cara Menjalankan
 1. Pastikan **XAMPP** (Apache + MySQL) sudah berjalan.
-2. Import file `db_perpustakaan.sql` ke **phpMyAdmin** (buat database terlebih dahulu, lalu import).
+2. Import file `db_perpustakaan.sql` ke **phpMyAdmin**. Skrip ini otomatis membuat database `db_perpustakaan`, tabel, data contoh, sekaligus pengguna MySQL `perpus`.
 3. Letakkan folder project di `C:\xampp\htdocs\perpus-php`.
-4. Sesuaikan konfigurasi koneksi database di `config/config.php` jika perlu (host, username, password, nama database).
+4. Konfigurasi koneksi ada di `config/config.php`:
+   - Host: `127.0.0.1`
+   - Database: `db_perpustakaan`
+   - User: `perpus` / Password: `perpus123`
+   - (Jika memakai user lain, ubah nilainya di file tersebut.)
 5. Buka browser dan akses `http://localhost/perpus-php/`.
 
 ## Struktur Folder Project

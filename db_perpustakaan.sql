@@ -1,6 +1,12 @@
 
+DROP DATABASE IF EXISTS db_perpustakaan;
 CREATE DATABASE db_perpustakaan;
 USE db_perpustakaan;
+
+-- Pengguna khusus aplikasi (dibuat otomatis agar sesuai config/config.php)
+CREATE USER IF NOT EXISTS 'perpus'@'localhost' IDENTIFIED BY 'perpus123';
+GRANT SELECT, INSERT, UPDATE, DELETE ON db_perpustakaan.* TO 'perpus'@'localhost';
+FLUSH PRIVILEGES;
 
 CREATE TABLE anggota (
     id_anggota CHAR(4) PRIMARY KEY,
