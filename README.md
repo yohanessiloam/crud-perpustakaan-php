@@ -57,36 +57,15 @@ Project Praktikum Mata Kuliah Basis Data — Studi Kasus 1: Implementasi CRUD Si
 
 ## Screenshot Hasil Aplikasi
 
-Berikut beberapa tangkapan layar hasil pengujian aplikasi.
+Berikut tangkapan layar hasil pengujian aplikasi, disusun sesuai alur pengujian.
 
-| Skenario 1 | Skenario 2 | Skenario 3a |
+| | | |
 |:---:|:---:|:---:|
-| ![Skenario 1](screenshots/Skenario%201.png) | ![Skenario 2](screenshots/Skenario%202.png) | ![Skenario 3a](screenshots/Skenario%203a.png) |
-
-| Skenario 4 | Skenario 5 | Skenario 6a |
-|:---:|:---:|:---:|
-| ![Skenario 4](screenshots/Skenario%204.png) | ![Skenario 5](screenshots/Skenario%205.png) | ![Skenario 6a](screenshots/Skenario%206a.png) |
-
-| Skenario 7a | Skenario 8a | Skenario 9 |
-|:---:|:---:|:---:|
-| ![Skenario 7a](screenshots/Skenario%207a.png) | ![Skenario 8a](screenshots/Skenario%208a.png) | ![Skenario 9](screenshots/Skenario%209.png) |
-
-| Skenario 10 | Skenario 11a | Skenario 12 |
-|:---:|:---:|:---:|
-| ![Skenario 10](screenshots/Skenario%2010.png) | ![Skenario 11a](screenshots/Skenario%2011a.png) | ![Skenario 12](screenshots/Skenario%2012.png) |
-
-| Skenario 13a | Skenario 13b | Skenario 13c |
-|:---:|:---:|:---:|
-| ![Skenario 13a](screenshots/Skenario%2013a.png) | ![Skenario 13b](screenshots/Skenario%2013b.png) | ![Skenario 13c](screenshots/Skenario%2013c.png) |
-
-| Skenario 13d | Skenario 13e | Skenario 14a |
-|:---:|:---:|:---:|
-| ![Skenario 13d](screenshots/Skenario%2013d.png) | ![Skenario 13e](screenshots/Skenario%2013e.png) | ![Skenario 14a](screenshots/Skenario%2014a.png) |
-
-| Skenario 14b | Skenario 3b | Skenario 6b |
-|:---:|:---:|:---:|
-| ![Skenario 14b](screenshots/Skenario%2014b.png) | ![Skenario 3b](screenshots/Skenario%203b.png) | ![Skenario 6b](screenshots/Skenario%206b.png) |
-
-| Skenario 7b | Skenario 8b | Skenario 11b |
-|:---:|:---:|:---:|
-| ![Skenario 7b](screenshots/Skenario%207b.png) | ![Skenario 8b](screenshots/Skenario%208b.png) | ![Skenario 11b](screenshots/Skenario%2011b.png) |
+| ![Daftar Buku](screenshots/Skenario%201.png)<br>**1. Daftar Buku (Read)** | ![Pencarian](screenshots/Skenario%202.png)<br>**2. Pencarian Buku** | ![Form Tambah](screenshots/Skenario%203a.png)<br>**3a. Form Tambah Buku** |
+| ![Berhasil Ditambah](screenshots/Skenario%203b.png)<br>**3b. Buku Berhasil Ditambahkan** | ![Duplikat](screenshots/Skenario%204.png)<br>**4. ID Buku Duplikat Ditolak (1062)** | ![Validasi](screenshots/Skenario%205.png)<br>**5. Validasi Format ID (Bxxx)** |
+| ![Form Edit](screenshots/Skenario%206a.png)<br>**6a. Form Edit Buku** | ![Diperbarui](screenshots/Skenario%206b.png)<br>**6b. Data Buku Diperbarui** | ![Konfirmasi Hapus](screenshots/Skenario%207a.png)<br>**7a. Konfirmasi Hapus Buku** |
+| ![Dihapus](screenshots/Skenario%207b.png)<br>**7b. Buku Berhasil Dihapus** | ![Konfirmasi Hapus Riwayat](screenshots/Skenario%208a.png)<br>**8a. Konfirmasi Hapus Buku Beriwayat** | ![Ditolak FK](screenshots/Skenario%208b.png)<br>**8b. Hapus Ditolak (Foreign Key 1451)** |
+| ![Data Peminjaman](screenshots/Skenario%209.png)<br>**9. Daftar Peminjaman (JOIN)** | ![Filter](screenshots/Skenario%2010.png)<br>**10. Filter Status Dipinjam** | ![Form Pinjam](screenshots/Skenario%2011a.png)<br>**11a. Form Pinjam Buku** |
+| ![Dicatat](screenshots/Skenario%2011b.png)<br>**11b. Peminjaman Berhasil Dicatat** | ![Dikembalikan](screenshots/Skenario%2012.png)<br>**12. Buku Berhasil Dikembalikan** | ![Form Pinjam](screenshots/Skenario%2013a.png)<br>**13a. Form Pinjam Buku** |
+| ![Dicatat](screenshots/Skenario%2013b.png)<br>**13b. Peminjaman Berhasil Dicatat** | ![Form Pinjam](screenshots/Skenario%2013c.png)<br>**13c. Form Pinjam Buku** | ![Dicatat](screenshots/Skenario%2013d.png)<br>**13d. Peminjaman Berhasil Dicatat** |
+| ![Pilihan Buku](screenshots/Skenario%2013e.png)<br>**13e. Pilihan Buku (Stok Tersedia)** | ![Konfirmasi Hapus Transaksi](screenshots/Skenario%2014a.png)<br>**14a. Konfirmasi Hapus Transaksi** | ![Transaksi Dihapus](screenshots/Skenario%2014b.png)<br>**14b. Transaksi Berhasil Dihapus** |
