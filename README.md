@@ -3,10 +3,10 @@
 Project Praktikum Mata Kuliah Basis Data — Studi Kasus 1: Implementasi CRUD Sistem Informasi Perpustakaan menggunakan PHP Native.
 
 ## Identitas Mahasiswa
-- **Nama:** [Isi Nama Lengkap Anda]
-- **NIM:** [Isi NIM Anda]
-- **Kelas:** [Isi Kelas Anda]
-- **Teknologi:** PHP Native (PDO), MySQL / MariaDB, Bootstrap 5
+- **Nama:** Yohanes Siloam Wicaksono Utomo
+- **NIM:** 26091397137
+- **Kelas:** 2026D
+
 
 ## Fitur Aplikasi
 1. **Modul Buku (CRUD Lengkap):**
