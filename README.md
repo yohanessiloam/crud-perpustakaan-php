@@ -61,15 +61,100 @@ Project Praktikum Mata Kuliah Basis Data — Studi Kasus 1: Implementasi CRUD Si
 
 ## Screenshot Hasil Aplikasi
 
-Berikut tangkapan layar hasil pengujian aplikasi, disusun sesuai alur pengujian.
+Berikut tangkapan layar hasil pengujian aplikasi, disusun sesuai alur pengujian. Klik gambar untuk melihat ukuran penuh.
 
-| | | |
-|:---:|:---:|:---:|
-| ![Daftar Buku](screenshots/Skenario%201.png)<br>**1. Daftar Buku (Read)** | ![Pencarian](screenshots/Skenario%202.png)<br>**2. Pencarian Buku** | ![Form Tambah](screenshots/Skenario%203a.png)<br>**3a. Form Tambah Buku** |
-| ![Berhasil Ditambah](screenshots/Skenario%203b.png)<br>**3b. Buku Berhasil Ditambahkan** | ![Duplikat](screenshots/Skenario%204.png)<br>**4. ID Buku Duplikat Ditolak (1062)** | ![Validasi](screenshots/Skenario%205.png)<br>**5. Validasi Format ID (Bxxx)** |
-| ![Form Edit](screenshots/Skenario%206a.png)<br>**6a. Form Edit Buku** | ![Diperbarui](screenshots/Skenario%206b.png)<br>**6b. Data Buku Diperbarui** | ![Konfirmasi Hapus](screenshots/Skenario%207a.png)<br>**7a. Konfirmasi Hapus Buku** |
-| ![Dihapus](screenshots/Skenario%207b.png)<br>**7b. Buku Berhasil Dihapus** | ![Konfirmasi Hapus Riwayat](screenshots/Skenario%208a.png)<br>**8a. Konfirmasi Hapus Buku Beriwayat** | ![Ditolak FK](screenshots/Skenario%208b.png)<br>**8b. Hapus Ditolak (Foreign Key 1451)** |
-| ![Data Peminjaman](screenshots/Skenario%209.png)<br>**9. Daftar Peminjaman (JOIN)** | ![Filter](screenshots/Skenario%2010.png)<br>**10. Filter Status Dipinjam** | ![Form Pinjam](screenshots/Skenario%2011a.png)<br>**11a. Form Pinjam Buku** |
-| ![Dicatat](screenshots/Skenario%2011b.png)<br>**11b. Peminjaman Berhasil Dicatat** | ![Dikembalikan](screenshots/Skenario%2012.png)<br>**12. Buku Berhasil Dikembalikan** | ![Form Pinjam](screenshots/Skenario%2013a.png)<br>**13a. Form Pinjam Buku** |
-| ![Dicatat](screenshots/Skenario%2013b.png)<br>**13b. Peminjaman Berhasil Dicatat** | ![Form Pinjam](screenshots/Skenario%2013c.png)<br>**13c. Form Pinjam Buku** | ![Dicatat](screenshots/Skenario%2013d.png)<br>**13d. Peminjaman Berhasil Dicatat** |
-| ![Pilihan Buku](screenshots/Skenario%2013e.png)<br>**13e. Pilihan Buku (Stok Tersedia)** | ![Konfirmasi Hapus Transaksi](screenshots/Skenario%2014a.png)<br>**14a. Konfirmasi Hapus Transaksi** | ![Transaksi Dihapus](screenshots/Skenario%2014b.png)<br>**14b. Transaksi Berhasil Dihapus** |
+**1. Daftar Buku (Read)**
+
+[![Daftar Buku](screenshots/Skenario%201.png)](screenshots/Skenario%201.png)
+
+**2. Pencarian Buku**
+
+[![Pencarian](screenshots/Skenario%202.png)](screenshots/Skenario%202.png)
+
+**3a. Form Tambah Buku**
+
+[![Form Tambah](screenshots/Skenario%203a.png)](screenshots/Skenario%203a.png)
+
+**3b. Buku Berhasil Ditambahkan**
+
+[![Berhasil Ditambah](screenshots/Skenario%203b.png)](screenshots/Skenario%203b.png)
+
+**4. ID Buku Duplikat Ditolak (1062)**
+
+[![Duplikat](screenshots/Skenario%204.png)](screenshots/Skenario%204.png)
+
+**5. Validasi Format ID (Bxxx)**
+
+[![Validasi](screenshots/Skenario%205.png)](screenshots/Skenario%205.png)
+
+**6a. Form Edit Buku**
+
+[![Form Edit](screenshots/Skenario%206a.png)](screenshots/Skenario%206a.png)
+
+**6b. Data Buku Diperbarui**
+
+[![Diperbarui](screenshots/Skenario%206b.png)](screenshots/Skenario%206b.png)
+
+**7a. Konfirmasi Hapus Buku**
+
+[![Konfirmasi Hapus](screenshots/Skenario%207a.png)](screenshots/Skenario%207a.png)
+
+**7b. Buku Berhasil Dihapus**
+
+[![Dihapus](screenshots/Skenario%207b.png)](screenshots/Skenario%207b.png)
+
+**8a. Konfirmasi Hapus Buku Beriwayat**
+
+[![Konfirmasi Hapus Riwayat](screenshots/Skenario%208a.png)](screenshots/Skenario%208a.png)
+
+**8b. Hapus Ditolak (Foreign Key 1451)**
+
+[![Ditolak FK](screenshots/Skenario%208b.png)](screenshots/Skenario%208b.png)
+
+**9. Daftar Peminjaman (JOIN)**
+
+[![Data Peminjaman](screenshots/Skenario%209.png)](screenshots/Skenario%209.png)
+
+**10. Filter Status Dipinjam**
+
+[![Filter](screenshots/Skenario%2010.png)](screenshots/Skenario%2010.png)
+
+**11a. Form Pinjam Buku**
+
+[![Form Pinjam](screenshots/Skenario%2011a.png)](screenshots/Skenario%2011a.png)
+
+**11b. Peminjaman Berhasil Dicatat**
+
+[![Dicatat](screenshots/Skenario%2011b.png)](screenshots/Skenario%2011b.png)
+
+**12. Buku Berhasil Dikembalikan**
+
+[![Dikembalikan](screenshots/Skenario%2012.png)](screenshots/Skenario%2012.png)
+
+**13a. Form Pinjam Buku**
+
+[![Form Pinjam](screenshots/Skenario%2013a.png)](screenshots/Skenario%2013a.png)
+
+**13b. Peminjaman Berhasil Dicatat**
+
+[![Dicatat](screenshots/Skenario%2013b.png)](screenshots/Skenario%2013b.png)
+
+**13c. Form Pinjam Buku**
+
+[![Form Pinjam](screenshots/Skenario%2013c.png)](screenshots/Skenario%2013c.png)
+
+**13d. Peminjaman Berhasil Dicatat**
+
+[![Dicatat](screenshots/Skenario%2013d.png)](screenshots/Skenario%2013d.png)
+
+**13e. Pilihan Buku (Stok Tersedia)**
+
+[![Pilihan Buku](screenshots/Skenario%2013e.png)](screenshots/Skenario%2013e.png)
+
+**14a. Konfirmasi Hapus Transaksi**
+
+[![Konfirmasi Hapus Transaksi](screenshots/Skenario%2014a.png)](screenshots/Skenario%2014a.png)
+
+**14b. Transaksi Berhasil Dihapus**
+
+[![Transaksi Dihapus](screenshots/Skenario%2014b.png)](screenshots/Skenario%2014b.png)
